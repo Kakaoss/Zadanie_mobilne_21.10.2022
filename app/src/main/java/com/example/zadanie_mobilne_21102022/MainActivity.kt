@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
         val przywroc = findViewById<Button>(R.id.btnPrzywroc)
         val text = findViewById<TextView>(R.id.imie_nazwisko)
         val dodawanytext = findViewById<EditText>(R.id.wprowadzanie)
-        val xd = "s"
         dodaj.setOnClickListener {
             text.text = text.text.toString() + dodawanytext.text.toString()
             dodawanytext.text.clear();
